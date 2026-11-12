@@ -80,9 +80,49 @@ a{
 }
 
 .button a{
-    margin-left:26px ;
-    border: #0059ff;
-    border-radius: 6px;
+    display: inline-flex;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 50%;
+    font-size: 20px;
+    color: #e2e8f0;
+    transition: .6s ease;
+    align-items: center;
+}
+
+.button{
+    display: flex;
+    gap: 18px;
+    margin-top: 12px;
+
+}
+
+.gradient{
+    background: linear-gradient(
+        to right,
+        rgb(250, 78, 10),
+        rgb(247, 12, 204),
+        rgb(0, 106, 255),
+        rgb(48, 248, 255),
+        rgb(250, 78, 10)
+
+    );
+
+    background-clip: text;
+    color: transparent;
+    background-size: 200% auto;
+    animation: gradientAnimation 3s linear infinite;
+}
+
+@keyframes gradientAnimation{
+    0%{
+        background-position: 200% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
 }
 
 
