@@ -1,5 +1,5 @@
 body{
-    background-color: #1f242d;
+    background-color: #0f172a;
 
 }
 
@@ -9,11 +9,12 @@ a{
 }
 
 .nav-bar{
+    background-color: #0a0f1c;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 25px;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,6 +26,7 @@ a{
 .nav-logo{
     font-size: 30px;
     font-weight: 600;
+    margin-left: 140px;
 }
 
 .nav-list {
@@ -56,27 +58,28 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    min-height: 60vh;
+    min-height: 72vh;
     color: #ffff;
-    margin-left: 60px;
+    margin-left: 100px;
 }
 
 .home-content1 h1 {
-    font-size: 60px;
+    font-size: 64px;
     margin-top: 50px;
     margin-bottom: 0px;
    
 }
 
 .home-content1 h2{
-    margin-top: 0px;
-    font-size: 30px;
+    margin-top: 4px;
+    font-size: 34px;
+    color: lightgray;
 }
 
 .home-content1 p{
     color: grey;
     margin-top: 4px;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .logo a{
@@ -95,7 +98,7 @@ a{
 .logo{
     display: flex;
     gap: 18px;
-    margin-top: 12px;
+    margin-top: 40px;
 
 }
 
@@ -125,25 +128,33 @@ a{
     }
 }
 
+.button{
+    margin-top: 8px;
+}
+
 .button .b1{
     background-clip: border-box;
     -webkit-background-clip: border-box;
     color: white;
     border: none;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 60px;
     width: 100px;
+    height: 50px;
     cursor: pointer;
+    font-size: 16px;
+
 }
 
 .button .b2{
-    border-radius: 20px;
+    border-radius: 60px;
     background-color: transparent;
     padding: 10px;
-    color: #30f8ff;
+    color: #38bdf8;
     font-size: 20px;
-    border: 2px solid blue;
+    border: 1px solid #2b9fd9;
     margin-left: 20px;
     cursor: pointer;
-
+    width: 140px;
+    height: 50px;
 }
