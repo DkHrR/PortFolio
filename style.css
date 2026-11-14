@@ -247,8 +247,41 @@ section{
         margin: 10px 0;
         font-size: 16px;
     }
-  
 
+    .experience h1{
+        font-size: 30px;
+    }
+
+
+    .timeline{
+        display:flex;
+        flex-wrap: wrap;
+        max-width: 800px;
+        margin: 25px auto;
+
+    }
+
+    .timeline-event{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .timeline-date{
+        display: flex;
+        background: linear-gradient(to right, transparent 50%, #01b7f6
+        53%, #01b7f6 0, transparent 50%);
+        order: 2;
+        text-align: center;
+        font-size: 28px;
+        color: #ffff;
+        width: 150px;
+
+
+    }
+
+    .timeline-date
 
 }
 
